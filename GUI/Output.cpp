@@ -352,9 +352,9 @@
 		else if (End.y < Start.y && End.x>Start.x)
 		{
 			pWind->DrawLine(Start.x, Start.y, Start.x, Start.y + 20);
-			pWind->DrawLine(Start.x, Start.y + 20, Start.x + 80, Start.y + 20);
-			pWind->DrawLine(Start.x + 80, Start.y + 20, Start.x + 80, End.y - 30);
-			pWind->DrawLine(Start.x + 80, End.y - 30, End.x, End.y - 30);
+			pWind->DrawLine(Start.x, Start.y + 20, Start.x + 140, Start.y + 20);
+			pWind->DrawLine(Start.x + 140, Start.y + 20, Start.x + 140, End.y - 30);
+			pWind->DrawLine(Start.x + 140, End.y - 30, End.x, End.y - 30);
 			pWind->DrawLine(End.x, End.y - 30, End.x, End.y);
 			int arrowSize = 10;
 			int X[3] = { End.x, End.x - 5, End.x + 5 };
@@ -364,9 +364,9 @@
 		else if (End.y < Start.y && End.x < Start.x)
 		{
 			pWind->DrawLine(Start.x, Start.y, Start.x, Start.y + 20);
-			pWind->DrawLine(Start.x, Start.y + 20, Start.x - 80, Start.y + 20);
-			pWind->DrawLine(Start.x - 80, Start.y + 20, Start.x - 80, End.y - 30);
-			pWind->DrawLine(Start.x - 80, End.y - 30, End.x, End.y - 30);
+			pWind->DrawLine(Start.x, Start.y + 20, Start.x - 140, Start.y + 20);
+			pWind->DrawLine(Start.x - 140, Start.y + 20, Start.x - 140, End.y - 30);
+			pWind->DrawLine(Start.x - 140, End.y - 30, End.x, End.y - 30);
 			pWind->DrawLine(End.x, End.y - 30, End.x, End.y);
 			int arrowSize = 10;
 			int X[3] = { End.x, End.x - 5, End.x + 5 };
