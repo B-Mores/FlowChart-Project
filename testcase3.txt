@@ -1,0 +1,7 @@
+3
+STRT	0	302	130	 Start 	
+VAL_ASSIGN	1	221	209	x	EQUAL	3	
+END	2	299	344	 End 	
+2
+0	1	0
+1	2	0

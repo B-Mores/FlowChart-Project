@@ -1,0 +1,11 @@
+5
+STRT	0	300	100	 Start 	
+DECLARE	1	221	171	 double 	d	
+VAL_ASSIGN	2	217	265	d	EQUAL	54	
+Write	3	205	381	 Write 	d	
+END	4	261	500	 End 	
+4
+0	1	0
+1	2	0
+2	3	0
+3	4	0
