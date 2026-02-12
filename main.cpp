@@ -1,6 +1,6 @@
 #include "ApplicationManager.h"
 
-//NOTE: YOU MUST NOT CHANGE THE MAIN FUNCTION
+
 
 int main()
 {
